@@ -1,9 +1,9 @@
 import styles from "./Common.module.css";
 
-export default function PlusButton() {
+export default function UpvoteButton() {
   return (
     <button className={styles.background}>
-      <img src="/plus.svg" alt="plus icon"></img>
+      <img src="/arrow-up.svg" alt="Up arrow"></img>
     </button>
   );
 }
