@@ -1,0 +1,15 @@
+.arrowDeselected {
+  color: var(--color-default-arrow);
+}
+
+.arrowSelected {
+  color: var(--color-selected-arrow);
+}
+
+.backgroundDeselected {
+  background-color: var(--color-default-background);
+}
+
+.backgroundSelected {
+  background-color: var(--color-selected-background);
+}

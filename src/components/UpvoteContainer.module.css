@@ -2,8 +2,9 @@
   border: 2px solid lightgrey;
   border-radius: 10px;
   display: flex;
+  gap: 10px;
   height: 60px;
-  justify-content: space-evenly;
+  width: 420px;
   padding-top: 10px;
-  width: 425px;
+  padding-left: 10px;
 }

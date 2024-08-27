@@ -1,4 +1,6 @@
 :root {
+  /* I made the colours global because ideally the colours would be apart of some theme. */
+  /* I would also rename them to be less specific. */
   --color-default-background: #f4f6f8;
   --color-default-arrow: #343a40;
   --color-selected-background: #e5e8fd;
@@ -7,4 +9,11 @@
 
 body {
   margin: 0;
+}
+
+.buttonBackground {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
 }
