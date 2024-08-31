@@ -9,7 +9,7 @@ export default function UpvoteContainer() {
   const { upvoteRows, rowStates, updateState } = useContext(AppContext);
 
   return (
-    <div className={styles.container}>
+    <div className={`upvoteContainer ${styles.container}`}>
       {upvoteRows[index].map((upvote) => {
         return <UpvoteButton key={upvote.id} handleOnClick={() => updateState(index)} isSelected={rowStates[index]}></UpvoteButton>;
       })}
